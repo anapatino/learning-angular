@@ -6,9 +6,11 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AddComponent } from './add/add.component';
 import { NavegationComponent } from './navegation/navegation.component';
+import { SubtractionComponent } from './subtraction/subtraction.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
-  declarations: [AppComponent, AddComponent, NavegationComponent],
+  declarations: [AppComponent, AddComponent, NavegationComponent, SubtractionComponent, HomeComponent],
   imports: [BrowserModule, AppRoutingModule, FormsModule, NgbModule],
   providers: [],
   bootstrap: [AppComponent],
